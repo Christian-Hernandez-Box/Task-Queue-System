@@ -27,11 +27,8 @@ Task-Queue-System/
 ├── tests/
 │   ├── __init__.py
 │   ├── test_queue.py      # Queue unit tests
-│   ├── test_task.py       # Task unit tests
-│   └── test_edge_cases.py # Edge case testing
+│   └── test_task.py       # Task unit tests
 ├── docs/
-│   ├── COMPLEXITY.md      # Time/space complexity analysis
-│   ├── LEARNING_JOURNAL.md # Reflection & discoveries
 │   └── README.md          # Architecture documentation
 ├── requirements.txt
 ├── .gitignore
@@ -101,14 +98,11 @@ pytest tests/ --cov=src --cov-report=html
 
 ## Documentation
 
-- **[Complexity Analysis](docs/COMPLEXITY.md)** - Time and space complexity of queue operations
-- **[Learning Journal](docs/LEARNING_JOURNAL.md)** - Insights and discoveries during development
-
 ## Key Concepts Covered
 
 1. **Data Structures**: Queue implementation with enqueue/dequeue operations
 2. **Testing**: Unit tests with pytest framework
-3. **Documentation**: Code comments, complexity analysis, and learning reflections
+3. **Documentation**: Code comments, complexity analysis
 4. **Software Design**: Task management and worker patterns
 
 ## Definition of Done
